@@ -1,0 +1,127 @@
+.flex-macbok {
+    position: relative;
+    height: 500px;
+    width: 850px;
+    left: 180px;
+    top: 100px;
+    border-radius: 0px;
+    background: #9DBEBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: absolute;
+    width: 554px;
+    height: 350px;
+    left: 150px;
+    top: 100px;
+    background-image: linear-gradient(to right, #BE0909 0%, #BE0909 65%, #FFB039 0%, #FFB039 35%);
+}
+
+.duck {
+    position: absolute;
+    width: 350px;
+    height: 280px;
+    left: 220px;
+    top: 95px;
+    background: url(hiclipart.png);
+}
+
+.input {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    top: 40px;
+    line-height: px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #FEFFFF;
+    background-color: transparent;
+    border: 1px solid #FEFFFF;
+    border-style: none;
+    border-bottom-style: solid
+}
+
+.name {
+    position: relative;
+    width: 111px;
+    height: 10px;
+    left: 20px;
+    top: 40px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 50;
+    font-size: 10px;
+    line-height: 24px;
+    background-color: none;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FEFFFF;
+}
+
+.input-name {
+    position: relative;
+    width: 250px;
+    height: 21px;
+    left: 20px;
+    top: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.input-email {
+    position: relative;
+    width: 150px;
+    height: 21px;
+    top: 30px;
+    left: 20px;
+    font-size: 12px;
+}
+
+.input-msg {
+    position: relative;
+    width: 150px;
+    height: 21px;
+    top: 30px;
+    left: 20px;
+    font-size: 12px;
+}
+
+.input-urmsg {
+    position: relative;
+    width: 250px;
+    height: 21px;
+    left: 20px;
+    top: 50px;
+    font-size: 12px;
+}
+
+.label {
+    position: relative;
+    display: block;
+    width: 300px;
+    top: 60px;
+}
+
+.btn-msg {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    font-size: x-small;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    left: 80px;
+    top: 275px;
+    color: #FEFFFF;
+    background: #468189;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    border-color: transparent;
+}
