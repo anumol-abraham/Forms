@@ -12,11 +12,13 @@
 }
 
 .container {
+    display: flex;
     position: absolute;
     width: 554px;
     height: 350px;
     left: 150px;
     top: 100px;
+    justify-content: space-between;
     background-image: linear-gradient(to right, #BE0909 0%, #BE0909 65%, #FFB039 0%, #FFB039 35%);
 }
 
@@ -34,15 +36,14 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    top: 40px;
+    top: 30px;
     line-height: px;
-    /* identical to box height */
     letter-spacing: 0.1em;
     color: #FEFFFF;
     background-color: transparent;
     border: 1px solid #FEFFFF;
     border-style: none;
-    border-bottom-style: solid
+    border-bottom-style: solid;
 }
 
 .name {
@@ -58,10 +59,10 @@
     font-size: 10px;
     line-height: 24px;
     background-color: none;
-    /* identical to box height */
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #FEFFFF;
+    padding-bottom: 35px;
 }
 
 .input-name {
@@ -72,7 +73,6 @@
     top: 30px;
     font-size: 18px;
     text-transform: uppercase;
-
 }
 
 .input-email {
