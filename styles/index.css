@@ -13,6 +13,7 @@
     width:70%;
     height: 400px;
     top: 100px;
+    align-items: flex-start;
     justify-content: space-between;
     background-image: linear-gradient(to right, #BE0909 0%, #BE0909 65%, #FFB039 0%, #FFB039 35%);
 }
@@ -21,7 +22,7 @@
     position: absolute;
     max-width: 450px;
     height: 400px;
-    left: 350px;
+    left: 400px;
     background: url(hiclipart.png);
 }
 
