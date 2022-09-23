@@ -1,22 +1,17 @@
 .flex-macbok {
     position: relative;
     height: 500px;
-    width: 850px;
-    left: 180px;
-    top: 100px;
+    width: 80%;
     border-radius: 0px;
     background: #9DBEBB;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .container {
     display: flex;
-    position: absolute;
-    width: 554px;
-    height: 350px;
-    left: 150px;
+    width:70%;
+    height: 400px;
     top: 100px;
     justify-content: space-between;
     background-image: linear-gradient(to right, #BE0909 0%, #BE0909 65%, #FFB039 0%, #FFB039 35%);
@@ -24,10 +19,9 @@
 
 .duck {
     position: absolute;
-    width: 350px;
-    height: 280px;
-    left: 220px;
-    top: 95px;
+    max-width: 450px;
+    height: 400px;
+    left: 350px;
     background: url(hiclipart.png);
 }
 
@@ -37,13 +31,16 @@
     font-style: normal;
     font-weight: 400;
     top: 30px;
-    line-height: px;
     letter-spacing: 0.1em;
     color: #FEFFFF;
-    background-color: transparent;
+    background: none;
     border: 1px solid #FEFFFF;
     border-style: none;
     border-bottom-style: solid;
+}
+
+.input:hover {
+    background-color: rgb(21, 15, 3);
 }
 
 .name {
@@ -65,13 +62,14 @@
     padding-bottom: 35px;
 }
 
+
 .input-name {
     position: relative;
     width: 250px;
     height: 21px;
     left: 20px;
     top: 30px;
-    font-size: 18px;
+    font-size: 12px;
     text-transform: uppercase;
 }
 
@@ -105,7 +103,7 @@
 .label {
     position: relative;
     display: block;
-    width: 300px;
+    min-width: 300px;
     top: 60px;
 }
 
@@ -124,4 +122,8 @@
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
     border-radius: 40px;
     border-color: transparent;
+}
+
+.btn-msg:hover {
+    border-color: yellowgreen;
 }
